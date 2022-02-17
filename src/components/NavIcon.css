@@ -1,0 +1,22 @@
+.navIcon {
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+  color: gray;
+  align-items: center;
+}
+
+.navIcon:hover {
+color: black;
+cursor: pointer;
+}
+
+.navIcon-title{
+  font-size: 12px;
+  font-weight: 400;
+}
+.navIcon-icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
